@@ -1,5 +1,5 @@
-from src.repositories.db import get_connection
-from src.models.movie import Movie
+from repositories.db import get_connection
+from models.movie import Movie
 
 
 class MovieRepository:
