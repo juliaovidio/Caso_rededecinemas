@@ -1,11 +1,11 @@
 from datetime import datetime, timedelta
-from src.models.cinema import Cinema
-from src.models.movie import Movie
-from src.models.session import Session
-from src.repositories.cinema_repository import CinemaRepository
-from src.repositories.movie_repository import MovieRepository
-from src.repositories.session_repository import SessionRepository
-from src.repositories.attendance_repository import AttendanceRepository
+from models.cinema import Cinema
+from models.movie import Movie
+from models.session import Session
+from repositories.cinema_repository import CinemaRepository
+from repositories.movie_repository import MovieRepository
+from repositories.session_repository import SessionRepository
+from repositories.attendance_repository import AttendanceRepository
 
 
 class CinemaService:
