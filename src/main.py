@@ -1,6 +1,7 @@
-from src.repositories.db import init_db
-from src.controllers.cinema_controller import CinemaController
-from src.views.cli_view import CLIView
+from repositories.db import init_db
+from controllers.cinema_controller import CinemaController
+from views.cli_view import CLIView
+
 
 
 def main():
