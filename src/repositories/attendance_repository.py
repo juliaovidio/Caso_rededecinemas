@@ -1,4 +1,4 @@
-from src.repositories.db import get_connection
+from repositories.db import get_connection
 
 
 class AttendanceRepository:
