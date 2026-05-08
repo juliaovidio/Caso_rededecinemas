@@ -1,4 +1,4 @@
-from src.services.cinema_services import CinemaService, MovieService, SessionService, AttendanceService, ReportService
+from services.cinema_services import CinemaService, MovieService, SessionService, AttendanceService, ReportService
 
 
 class CinemaController:
