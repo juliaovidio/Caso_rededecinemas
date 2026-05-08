@@ -1,5 +1,5 @@
-from src.repositories.db import get_connection
-from src.models.cinema import Cinema
+from repositories.db import get_connection
+from models.cinema import Cinema
 
 
 class CinemaRepository:
