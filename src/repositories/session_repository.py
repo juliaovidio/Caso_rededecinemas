@@ -1,5 +1,5 @@
-from src.repositories.db import get_connection
-from src.models.session import Session
+from repositories.db import get_connection
+from models.session import Session
 
 
 class SessionRepository:
